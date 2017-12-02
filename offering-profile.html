@@ -510,19 +510,104 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li>
 					</ul>						
 					<div class="resp-tabs-container hor_1"  id="add-service">
-						<select name="categories" class="select-category">
+						<select name="categories" id="select-category">
 							<option value="education">Educação</option>
-							<option value="saab">Festas, eventos e laze</option>
-							<option value="fiat">Moda e beleza</option>
-							<option value="audi">Saúde</option>
-							<option>Serviços gerais</option>
+							<option value="parties">Festas, eventos e laze</option>
+							<option value="fashion">Moda e beleza</option>
+							<option value="pets">Pets</option>
+							<option value="health">Saúde</option>
+							<option value="general-services">Serviços gerais</option>
+							<option value="maintence">Técnico, manutenção</option>
 						</select>
-						<ul>
-							<h2 class="head">Subcategorias:</h2>
-							<script type="text/javascript">
-								var subcategories;
-							</script>
-						</ul>
+						<h2 class="head">Subcategorias:</h2>
+						<script type="text/javascript">
+							var subcategorySelector = document.getElementById("select-category");
+							
+							subcategorySelector.addEventListener('change', showSubcategories);
+
+							showSubcategories()
+
+							function showSubcategories () {
+								var subcategories = [];		
+
+								switch(subcategorySelector.options[subcategorySelector.selectedIndex].value){
+									case "education":
+										subcategories.push("Aula particular (idiomas, aula de música)"); 
+										subcategories.push("Reforço (escolar, ensino superior)");
+									break;
+									case "parties":
+										subcategories.push("Animação de festas (mágicos, palhaços, artistas circenses)");
+										subcategories.push("Decoração de festas");
+										subcategories.push("DJ");
+										subcategories.push("Fotográfo");
+									break;
+									case "fashion":
+										subcategories.push("Cabeleireiros");
+										subcategories.push("Costureiros");
+										subcategories.push("Maquiador");
+										subcategories.push("Manicure");
+									break;
+									case "pets":
+										subcategories.push("CatSitter");
+										subcategories.push("Passeador de cães");
+										subcategories.push("Pet Hotel");
+										subcategories.push("Pet Taxi");
+									break;
+									case "health":
+										subcategories.push("Cuidador de idosos");
+										subcategories.push("Doula");
+										subcategories.push("Massagista");
+										subcategories.push("Personal Trainer");
+									break;
+									case "general-services":
+										subcategories.push("Carpinteiro");
+										subcategories.push("Chaveiro");
+										subcategories.push("Diarista (faxina, cozinha, lavagem de roupas)");
+										subcategories.push("Frete");
+										subcategories.push("Jardineiro");
+										subcategories.push("Lavagem de carro");
+										subcategories.push("Marceneiro");
+										subcategories.push("Pedreiro");
+										subcategories.push("Pintor");
+										subcategories.push("Vidraceiro");
+									break;
+									case "maintence":
+										subcategories.push("Ar condicionado e Ventilação ( instalação, reparo, higienização)");
+										subcategories.push("Conserto de eletrodomésticos");
+										subcategories.push("Eletricista (fiações elétricas, bombas e motores, quadro de instalações)");
+										subcategories.push("Encanador (instalação hidráulica)");
+										subcategories.push("Técnico de informática");
+									break;
+								}
+
+								document.getElementById("add-service").appendChild( makeUL(subcategories) );
+							}
+
+							function makeUL(array) {
+							    var list;
+
+							    if( $( '#subcategories-list' ).length){
+							    	list = document.getElementById("subcategories-list");
+							    	$( '#subcategories-list' ).empty();
+
+							    } else {
+							    	list = document.createElement('ul');
+							    	list.id = "subcategories-list";
+
+							    }
+
+							    for(var i = 0; i < array.length; i++) {
+							        var item = document.createElement('li');
+
+							        item.appendChild(document.createTextNode(array[i]));
+
+							        list.appendChild(item);
+							    }
+
+							    return list;
+							}
+
+						</script>
 					</div>
 					<script type="text/javascript">
 						var addService = document.getElementById("add-service");

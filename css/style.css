@@ -209,12 +209,13 @@ a.account {
     margin-top: 20px;
     font-size: 15px;
     color: #fff;
-    background-color: #01a185;
+    background-color: #2d1734;
     padding: 6px 20px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 a.account:hover {
-	background-color: #f3c500;
+	transform: scale(1.1);
 }
 span.active.uls-trigger {
     float: left;
@@ -4846,7 +4847,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.select-category {
+#select-category {
 	padding-top: 10px;
 	margin: auto;
 	width: 50%;
@@ -4856,5 +4857,12 @@ input:checked + .slider:before {
 #add-service{
 	position: relative;
 	padding: 30px 30px 30px 30px;
+}
+
+#logo-banner {
+	width: 200px;
+	height: auto;
+	top: 0px;
+	left: 0px;
 }
 
