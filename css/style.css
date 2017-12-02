@@ -71,7 +71,7 @@ label{
 	text-decoration: none;
     color: #fff;
     font-size: 17px;
-    background-color: #f3c500;
+    background-color: #2d1734;
     padding: 10px 20px;
 }
 .banner a:hover {
@@ -202,7 +202,7 @@ li.dropdown-header {
 	text-decoration:none;
 }
 .logo a span {
-	color:#f3c500;
+	color:#2d1734;
 }
 a.account {
     float: left;
@@ -450,7 +450,7 @@ i.real-estate {
 }
 .new_people h2{
 	font-size:2em;
-	color:#f3c500;
+	color:#2d1734;
 	margin:0;
 }
 .new_people p{
@@ -468,8 +468,8 @@ i.real-estate {
 }
 .new_people a:hover{
 	color:#FFF;
-	border:1px solid #f3c500;
-	background:#f3c500;
+	border:1px solid #2d1734;
+	background:#2d1734;
 }
 .sign-in-form-top{
 	display: block;
@@ -646,7 +646,7 @@ span.checkbox2 {
     margin: 0.5em 0 0 27.5%;
 }
 .sign-in-form input[type="submit"]:hover {
-	 background:#f3c500;
+	 background:#2d1734;
 	 transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -671,7 +671,7 @@ span.checkbox2 {
 .sign-up h1 {
     text-align: center;
     font-size: 2em;
-    color:#f3c500;
+    color:#2d1734;
     margin: 0 0 0.5em;
 }
 p.creating{
@@ -738,7 +738,7 @@ p.creating{
     -ms-transition: .5s all;
 	}
 .sign-up input[type="submit"]:hover{
-	background:#f3c500;
+	background:#2d1734;
 	color:#fff;
 	}
 .sub_home {
@@ -758,7 +758,7 @@ p.creating{
 }
 .sub_home_right p a{
 	text-decoration:underline;
-	color:#f3c500;
+	color:#2d1734;
 }
 .sub_home_right p a:hover{
 	color:#999;
@@ -849,7 +849,7 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
     margin: 0 auto;
 }
 .trend-ads h2 {
-    color: #f3c500;
+    color: #2d1734;
     font-size: 40px;
     margin-bottom: 35px;
     text-align: center;
@@ -867,7 +867,7 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 	-ms-transition:0.5s all;
 }
 .biseller-column:hover div.ad-info h5 {
-	color:#f3c500;
+	color:#2d1734;
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1147,7 +1147,7 @@ ul.location li:nth-child(2) {
     text-decoration: none;
 }
 .footer-logo a span {
-    color: #f3c500;
+    color: #2d1734;
 }
 .footer-logo a {
 	position:relative;
@@ -1188,12 +1188,13 @@ ul.location li:nth-child(2) {
     padding: 0 0 60px 0;
 }
 ul.resp-tabs-list.hor_1 {
+	overflow: auto;
     background-color: #F5F5F5;
     padding: 35px 0;
 }
 ul.resp-tabs-list.hor_1 a {
     text-decoration: none;
-    color: #f3c500;
+    color: #2d1734;
     font-size: 15px;
     margin: 25px 0 0 0;
     display: block;
@@ -1249,7 +1250,7 @@ span.total strong {
 	margin:10px 0;
 }
 .category-info a {
-    color: #f3c500;
+    color: #2d1734;
 	text-decoration:none;
     font-size: 14px;
 }
@@ -1293,7 +1294,7 @@ span.total strong {
     text-transform: capitalize;
 }
 .sun-regions ul li a:hover {
-	color:#f3c500;
+	color:#2d1734;
 }
 .region-block {
     padding: 40px 0px;
@@ -1306,7 +1307,7 @@ span.total strong {
     border-bottom: 3px solid #F4F4F4;
 }
 h2.head {
-    color: #f3c500;
+    color: #2d1734;
     font-size: 35px;
     margin: 35px 0;
 }
@@ -1430,7 +1431,7 @@ a.tag20 {
     text-transform: capitalize;
 }
 .popular-regions ul li a:hover {
-	color:#f3c500;
+	color:#2d1734;
 }
 h4.mpcwc {
 	margin-top:40px;
@@ -1454,7 +1455,7 @@ h4.mpcwc {
     margin: 0 0 5px 0;
 }
 .popular-category ul li a:hover {
-    color: #f3c500;
+    color: #2d1734;
 }
 .popular-category {
     width: 20%;
@@ -1483,7 +1484,7 @@ h4.mpcwc {
     text-transform: capitalize;
 }
 .sitemap-regions ul li a:hover {
-	color:#f3c500;
+	color:#2d1734;
 }
 .sitemap-regions ul li.left-gap {
 	margin:-2px 0 0 15px;
@@ -1579,7 +1580,7 @@ ul.all-cat-list li a:hover {
 }
 .all-categories h3 {
     margin: 0 0 15px 15px;
-    color: #f3c500;
+    color: #2d1734;
     font-size: 25px;
 }
 /*-- //All-classifieds --*/
@@ -1624,7 +1625,7 @@ ul.all-cat-list li a:hover {
 }
 .app-bottom-grid h3 {
 	font-size: 28px;
-    color: #f3c500;
+    color: #2d1734;
     margin: 30px 0 0px 0;
 }
 .app-bottom-grid p {
@@ -1713,7 +1714,7 @@ a.work {
 	color: #fff;
     font-size: 14px;
     text-decoration: none;
-    background: #f3c500;
+    background: #2d1734;
     text-transform: uppercase;
     font-weight: 400;
     padding: 11px 23px;
@@ -1930,12 +1931,12 @@ form .field input[type="text"]:focus + label, form .field input[type="text"].foc
 form .field textarea:focus + label,
 form .field textarea.focused + label {
   width: 18%;
-  background: #f3c500;
+  background: #2d1734;
   color: #fff;
 }
 form .field input[type="text"].focused + label,
 form .field textarea.focused + label {
-  color: #f3c500;
+  color: #2d1734;
 }
 form .field:hover label {
   width: 20%;
@@ -1943,7 +1944,7 @@ form .field:hover label {
   color: white;
 }
 form.submit input[type="submit"] {
-    background: #f3c500;
+    background: #2d1734;
     color: white;
     -webkit-appearance: none;
     border: none;
@@ -1993,7 +1994,7 @@ form input[type="submit"]:focus {
 }
 
 #drop a:hover{
-    background-color:#f3c500;
+    background-color:#2d1734;
 }
 
 #drop input{
@@ -2100,7 +2101,7 @@ form.submit {
 }
 .product-view p i {
     margin-right: 4px;
-    color: #f3c500;
+    color: #2d1734;
     font-size: 14px;
 }
 .product-view p a {
@@ -2117,7 +2118,7 @@ form.submit {
 	margin:15px 0;
 }
 .product-details h4 a {
-	color:#f3c500;
+	color:#2d1734;
 	font-size:15.5px;
 	text-decoration:none;
 }
@@ -2165,7 +2166,7 @@ p.p-price {
 }
 h3.rate {
     float: left;
-    color: #f3c500;
+    color: #2d1734;
     font-size: 30px;
 }
 .condition h4,.itemtype h4 {
@@ -2422,7 +2423,7 @@ border-bottom: 1px solid #e5e3db;
 }
 h2.sear-head.fer {
     text-align: center;
-    color: #F3C500;
+    color: #2d1734;
     font-size: 26px;
 	    margin-bottom: 20px;
 }
@@ -2432,7 +2433,7 @@ h2.sear-head.fer {
     color: #000;
 }
 .featured-ad-right h4:hover {
-	color: #f3c500;
+	color: #2d1734;
 }
 .featured-ad-right p {
     color: red;
@@ -2586,7 +2587,7 @@ h2.sear-head.fer {
     margin-bottom: -1px!important;
     border-top: 1px solid;
     border: 1px solid #CCCCCC !important;
-    border-top: 4px solid #f3c500 !important;
+    border-top: 4px solid #2d1734 !important;
     border-bottom: 1px #FFF solid !important;
     background-color: #fff!important;
 	margin: 0;
@@ -2740,7 +2741,7 @@ span.cityname{
     word-wrap: break-word;
     font-size: 17px;
     text-decoration: none;
-    color: #f3c500;
+    color: #2d1734;
     font-weight: 700;
 }
 
@@ -2807,10 +2808,10 @@ div#viewcontrols label {
 	cursor:pointer;
 }
 #viewcontrols a:hover{
-	color:#f3c500;
+	color:#2d1734;
 }
 #viewcontrols .active{
-	color:#f3c500;
+	color:#2d1734;
 }
 
 /* MISCELLANEOUS */
@@ -2926,7 +2927,7 @@ section.list-right span.price:after {
     text-transform: uppercase;
     padding: 8px 18px;
     border: none;
-    background-color: #f3c500;
+    background-color: #2d1734;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -3036,7 +3037,7 @@ ul.privacy-start {
     color: #555;
 }
 .post-ad-form input[type="text"]:hover,.post-ad-form textarea:hover {
-    border: 1px solid #f3c500;
+    border: 1px solid #2d1734;
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -3051,7 +3052,7 @@ ul.privacy-start {
     margin-bottom: 25px;
 }
 .post-ad-form input[type="submit"] {
-    background: #f3c500;
+    background: #2d1734;
     color: white;
     -webkit-appearance: none;
     border: none;
@@ -3083,8 +3084,8 @@ legend
     text-align: center;
     padding: 25px 0;
     margin: 25px 0;
-    color: #f3c500;
-    border: 2px dashed #f3c500;
+    color: #2d1734;
+    border: 2px dashed #2d1734;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -4849,8 +4850,9 @@ input:checked + .slider:before {
 
 #select-category {
 	padding-top: 10px;
+	padding-bottom: 20px;
 	margin: auto;
-	width: 50%;
+	width: 80%;
 	font-size: 30px;
 }
 
