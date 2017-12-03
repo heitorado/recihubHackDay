@@ -11,8 +11,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-select.css">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -72,15 +70,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				} );
 			} );
 		</script>
+		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    <script src="js/easyResponsiveTabs.js"></script>
 </head>
 <body>
-	<div class="header">
+<div class="header">
 		<div class="container">
 			<div class="logo">
 				<img src="images/Logo.png" id="logo-banner">
 			</div>
 			<div class="header-right">
 			<a class="account" href="login.html">Jacqueline Alves</a>
+			
 	<!-- Large modal -->
 			<div class="selectregion">
 				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
@@ -89,14 +90,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		</div>
 	</div>
-	<div>
-	<div class="main-banner banner text-center">
+	<div class="banner text-center">
 	  <div class="container">    
-			<a href="requesting-profile.html">Quero procurar</a>
-			<a href="offering-profile.html">Quero oferecer</a>
+			<h1>Aguarde... Estamos buscando serviços próximos...   <span class="segment-heading">  </span></h1>
+	  </div>
 	</div>
+	<!-- Categories -->
+	<!--Vertical Tab-->
+	<div class="categories-section main-grid-border">
+		
 	</div>
-		<!--footer section start-->		
+	<!--Plug-in Initialisation-->
+	<script type="text/javascript">
+    $(document).ready(function() {
+
+    	
+	
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+	<!-- //Categories -->
+	<!--footer section start-->		
 		<footer>
 			<div class="footer-top">
 				<div class="container">

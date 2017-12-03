@@ -47,13 +47,13 @@ label{
 	margin:0;
 }
 .banner {
-	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background:url('../images/banner.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:240px;
 	padding:45px 0 0 0;
 }
 .main-banner {
-	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background:url('../images/banner.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:400px;
 	padding:100px 0 0 0;
@@ -1250,13 +1250,11 @@ span.total strong {
 	margin:10px 0;
 }
 .category-info a {
-    color: #2d1734;
+    color: white;
 	text-decoration:none;
     font-size: 14px;
 }
-.category-info a:hover {
-	color:#01a185;
-}
+
 .sub-categories {
     margin-top: 20px;   
 	margin-left: 20px;
@@ -4794,6 +4792,7 @@ label {
 
 .switch {
   position: relative;
+  float: right;
   display: inline-block;
   width: 40px;
   height: 24px;
@@ -4853,7 +4852,7 @@ input:checked + .slider:before {
 	padding-bottom: 20px;
 	margin: auto;
 	width: 80%;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #add-service{
@@ -4868,3 +4867,32 @@ input:checked + .slider:before {
 	left: 0px;
 }
 
+.new-service-button {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	background-color: #2d1734;
+	border: none;
+	outline: none;
+	text-decoration-style: bold;
+	text-align: center;
+	color: white;
+	transition: all .2s ease-in-out;
+}
+
+.new-service-button:hover {
+	transform: scale(1.05);
+}
+
+#add-service-button {
+	height: 80%;
+	background-color: #2d1734;
+	border: none;
+	color: white;
+	outline: none;
+	transition: all .2s ease-in-out;
+}
+
+#add-service-button:hover {
+	transform: scale(1.05);
+}
